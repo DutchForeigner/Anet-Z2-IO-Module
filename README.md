@@ -1,8 +1,8 @@
 # Anet-Z2-IO-Module
-Work in progress...
-Attempt to add a 2nd Z driver and extra IO for an ANET A6 3D printer.
-The Anet A6 is a nice, relatively cheap, 3D printer. It has 2x Z steppers, plugged in parrallel into 1 Z-driver.
-The disadvantage is that the 2 Z-steppers can be very easily misalligned. I got fed-up with that and wanted to add at least a 2nd independant Z-driver.
+Work in progress...<br>
+Attempt to add a 2nd Z driver and extra IO for an ANET A6 3D printer.<br>
+The Anet A6 is a nice, relatively cheap, 3D printer. It has 2x Z steppers, plugged in parrallel into 1 Z-driver.<br>
+The disadvantage is that the 2 Z-steppers can be very easily misalligned. I got fed-up with that and wanted to add at least a 2nd independant Z-driver.<br>
 
 This project will:
 - free up the I2C pins on the LCD plug and redirecting the encoder on the LCD board to the IO on an I2C MCP23017 IO controller.
