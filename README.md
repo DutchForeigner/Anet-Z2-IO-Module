@@ -1,5 +1,7 @@
 # Anet-Z2-IO-Module
-Work in progress...<br>
+11-Mar-2021: Work has stopped on this. *Might* pick it up later, as a challenge to get it to work.<br>
+Bought an new 32-bit board (Fysetc S6 V2) with 5x TMC2209 drivers instead. (€44.71 total)<br>
+<br>
 Attempt to add a 2nd Z driver and extra IO for an ANET A6 3D printer.<br>
 The Anet A6 is a nice, relatively cheap, 3D printer. It has 2x Z steppers, plugged in parrallel into 1 Z-driver.<br>
 The disadvantage is that the 2 Z-steppers can be very easily misalligned. I got fed-up with that and wanted to add at least a 2nd independant Z-driver.<br>
@@ -12,7 +14,9 @@ This project will:
 
 Limitations:
 - The ANet board uses the ATMEGA1284P uC and has only 1 free pin in the standard configuration.
-- The ATMEGA1284P has a very limited program memory. Using some extra's like manual bedlevel LCD menu and custom startup logo, takes up about 97% of prog mem already.
+- The ATMEGA1284P has a very limited program memory. 
+- Using some extra's like manual bedlevel LCD menu and custom startup logo, takes up about 97% of prog mem already.
+- Using autobedlevel with 3D Touch sensor also just fits in the memory (with disabling multiple other functions). 99.3% memmory used.
 
 Done:
 - Schematic and electronics are done.
